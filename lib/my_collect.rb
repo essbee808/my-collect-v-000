@@ -2,7 +2,7 @@ collection = Array.new
 
 def my_collect(collection)
   i = 0
-  collection = []
+  modified_collection = []
   while i < collection.length
     collection << yield(array[i])
     i += 1
