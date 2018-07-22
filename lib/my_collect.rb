@@ -7,4 +7,4 @@ def my_collect(collection)
   end
 end
 
-my_collect(collection) {|item| }
+my_collect(collection) {|item| puts "#{item}"}
