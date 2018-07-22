@@ -1,4 +1,4 @@
-collection = Array.new
+array = Array.new
 
 def my_collect(collection)
   i = 0
