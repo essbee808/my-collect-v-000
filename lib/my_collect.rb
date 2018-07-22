@@ -2,7 +2,7 @@ collection = Array.new
 
 def my_collect(collection)
   i = 0
-  while 
+  while i < collection.length
   
   end
 end
