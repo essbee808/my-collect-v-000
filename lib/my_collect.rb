@@ -6,4 +6,4 @@ def my_collect(collection)
   end
 end
 
-my_collect
+my_collect(collection)
