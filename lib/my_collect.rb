@@ -1,7 +1,8 @@
-collection = Array.new
+array = Array.new
 
-def my_collect(collection)
+def my_collect(array)
   i = 0
+  collection = []
   while i < collection.length
     
   end
