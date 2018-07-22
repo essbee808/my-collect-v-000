@@ -1,10 +1,10 @@
 array = Array.new
 
-def my_collect(collection)
+def my_collect(array)
   i = 0
   modified_collection = []
-  while i < collection.length
-    modifield_collection << yield(collection[i])
+  while i < array.length
+    modifield_collection << yield(array[i])
     i += 1
   end
   modified_collection
