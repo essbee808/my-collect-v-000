@@ -7,7 +7,7 @@ def my_collect(collection)
     modifield_collection << yield(collection[i])
     i += 1
   end
-  collection
+  modified_collection
 end
 
 my_collect(collection) {|item| puts "#{item}"}
