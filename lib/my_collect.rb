@@ -1,5 +1,5 @@
-languages = Array.new
+collection = Array.new
 
 def my_collect(collection)
-  while 
+  while collection
 end
