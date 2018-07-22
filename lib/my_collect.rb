@@ -10,4 +10,4 @@ def my_collect(array)
   modified_collection
 end
 
-my_collect([]) {|item| "#{item}"}
+my_collect(array) {|item| "#{item}"}
